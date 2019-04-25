@@ -75,10 +75,11 @@ $(document).ready(function () {
             });
 
             //Клики на табы
-            $('#bookmarks-tab').on('click', function () {
+             $('#bookmarks-tab').on('click', function () {
                 $('#showMore').hide();
                 $('#bookmarks-tab').addClass('content');
                 $('#films-tab').removeClass('content');
+                $('#footer').hide();
             })
             $('#films-tab').on('click', function () {
                 $('#bookmarks-tab').removeClass('content');
@@ -86,6 +87,7 @@ $(document).ready(function () {
                 if (i != titleArray.length) {
                     $('#showMore').show();
                 }
+                $('#footer').show();
             })
 
             // liveSearch 
