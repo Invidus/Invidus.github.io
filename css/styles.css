@@ -42,7 +42,7 @@ body, p, table, a {
 .bookmarks-container{
     display:grid;
     grid-template-columns: 2.5fr 1fr;   
-    border: 1px solid gray;
+    border: 2px solid gray;
     border-radius: 3px;
     margin-bottom: 16px !important;
     padding: 10px;
